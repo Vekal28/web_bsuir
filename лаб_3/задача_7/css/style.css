@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    margin: 5px 10px;
+}
+
+ul {
+    font-size: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-size: 15px;
+}
+
+.topmenu > li {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #444;
+}
+
+.submenu > li {
+    text-align: left;
+    background-color: #333;
+    padding: 5px 5px;
+}
+
+.submenu {
+    display: none;
+    background-color: #444;
+}
+
+.topmenu li:hover .submenu{
+    display: block;
+    background-color: #333;
+}
+
+.topmenu li:hover {
+    background-color: #333;
+}

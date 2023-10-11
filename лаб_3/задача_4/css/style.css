@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    /*display: inline;*/
+    color: #fff;
+    background-color: #999ccc;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    
+}
+
+main {
+    margin: 50px;
+    padding: 40px 20px;
+    border: 2px solid #b1b1d8;
+}

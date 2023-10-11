@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    text-align: center;
+}
+
+nav div {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #dddddd;
+    margin: 10px 3px;
+
+}
+
+nav div:hover {
+    background-color: #ccc;
+    cursor:pointer;
+}
+
+nav div:active {
+    background-color: #d10953;
+    color: #ffff;
+}

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+li {
+    display: inline-block;
+    margin: 15px;
+}
+
+ul {
+    background-color: #03786f;
+    color: #fff;
+}
+
+article {
+    margin: 40px 0;
+    background-color: #ffffff;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+}
+
+.sec_two  section {
+    display: block;
+    width: 100%;
+}
+
+.sec_two {
+    width: 70%;
+}
+
+p {
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+}
+
+footer li {
+    height: 100px;
+    width: 100px;
+    background-color: #ebebeb;
+    text-align: center;
+}
