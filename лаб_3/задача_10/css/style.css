@@ -1,0 +1,61 @@
+body {
+    font-family: Arial sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#bg {
+    width: 600px;
+    height: 400px;
+    background-image: url("../img/bg.jpg");
+}
+
+img {
+    display: block;
+    position: relative;
+}
+
+.pl1 {
+    z-index: 1;
+    top: 10px;
+    left: 150px
+}
+
+.pl2 {
+    z-index: 2;
+    top: -60px;
+    left: 25px
+}
+
+.spc {
+    z-index: 3;
+    top: -150px;
+    left: 120px;
+}
+
+.pl3 {
+    z-index: 4;
+    top: -195px;
+    left: 100px;
+}
+
+.supm {
+    position: relative;
+    z-index: 5;
+    top: -250px;
+    left: 490px;
+}
+
+.ufo {
+    position: absolute;
+    z-index: 5;
+    top: 320px;
+    left: 100px;
+}
+
+.ast {
+    position: absolute;
+    z-index: 5;
+    top: 90px;
+    left: 430px;
+}

@@ -9,26 +9,29 @@ nav {
 }
 
 li {
-    /*display: inline-block;*/
-    display: none;
-    height: 50px;
-    margin-right: 10px;
-    text-align: center;
-    background-color: aquamarine;
-}
-
-
-li:last-child {
-    margin-right: 0;
-}
-
-li:first-child {
     display: inline-block;
 }
 
-
-a:visited::after {
-    content: "1111";
-    background-color: bisque;
+a {
+    text-decoration: none;
+    color: #0b56ea;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: #333; 
+}
+
+li:after {
+    margin: 0 10px;
+    content: ">";
+    color: #ccc;
+    text-decoration: none;
+}
+
+li:last-child::after {
+    content: none;
+}

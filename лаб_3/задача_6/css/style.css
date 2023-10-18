@@ -6,13 +6,15 @@
 
 body {
     text-align: center;
+    background-color: #f8f8f8;
 }
 
 form {
     display: inline-block;
+    background-color: #fff;
     padding: 15px;
     width: 320px;
-    background-color: #fff;
+    height: 320px;
 }
 
 form input {
