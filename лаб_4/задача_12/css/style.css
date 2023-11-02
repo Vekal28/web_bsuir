@@ -6,7 +6,8 @@ main {
 }
 
 div {
-    width: 25%;
+    width: 350px;
+    height: 600px;
     background-color: blue;
     color: white;
 }
