@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 10px 5px;
+    width: 100%;
+}
+
+div {
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 50%;
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+div:hover {
+    white-space: wrap;
+}

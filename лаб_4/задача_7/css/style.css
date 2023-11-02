@@ -1,0 +1,19 @@
+div {
+    margin: auto;
+    margin-bottom: 50px;
+    outline: 1px solid #000;
+    width: 25vw;
+    height: 25vw;
+}
+
+.bshadow1 {
+    box-shadow: 15px 20px 8px 0 #838383;
+}
+
+.bshadow2 {
+    box-shadow: 15px 20px 8px #838383, -15px -20px 8px #838383;
+}
+
+.bshadow3 {
+    box-shadow: inset 5px 10px 10px 0 #838383;
+}

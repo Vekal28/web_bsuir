@@ -1,0 +1,12 @@
+body {
+    padding: 10px 10px;
+}
+
+b {
+    font-size: 2em;
+}
+.sec {
+    margin-top: 15px;
+    columns: 3;
+    text-align: justify;
+}

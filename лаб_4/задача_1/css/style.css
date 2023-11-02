@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 10px 5px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 60px;
+}
+
+#fild1 {
+    resize: both;
+}
+
+#fild2 {
+    resize: none;
+}
+
+#fild3 {
+    resize: horizontal;
+}
+
+#fild4 {
+    resize: vertical;
+}

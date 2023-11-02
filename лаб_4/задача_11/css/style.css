@@ -1,0 +1,21 @@
+#grid {
+  text-align: center;
+  display: grid;
+  grid-template-rows: minmax(40px, 300px) minmax(40px, 300px) minmax(40px, 300px);
+  grid-template-columns: minmax(60px , 500px) minmax(60px, 500px);
+  grid-gap: 2vw;
+}
+#grid > div {
+  font-size: 10px;
+  padding: .5em;
+  background: gold;
+  text-align: center;
+}
+
+
+@media (max-width: 400px) {
+  #grid {
+    grid-template-rows: minmax(40px, 188px) minmax(40px, 188px) minmax(40px, 188px);
+    grid-template-columns: minmax(60px , 300px) minmax(60px, 300px);
+  }
+}

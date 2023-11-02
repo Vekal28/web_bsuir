@@ -1,0 +1,31 @@
+div {
+    margin: 15px;
+    font-size: 60px;
+}
+
+.tshadow1 {
+    text-shadow: 35px 40px 0 grey;
+}
+
+.tshadow2 {
+    text-shadow: 35px 40px 4px grey;
+}
+
+.tshadow3 {
+    text-shadow: 3px 3px 2px blue, -3px -3px 2px red;
+}
+
+.tshadow4 {
+    color: white;
+    text-shadow: -1px -1px #a36d6d, 0 1px 0 #a36d6d;
+}
+
+.tshadow5 {
+    color: white;
+    text-shadow: 1px 1px 1px #a36d6d, 1px 1px 1px #a36d6d;
+}
+
+.tshadow6 {
+    color: white;
+    text-shadow: 1px 1px 0 rgb(62, 230, 221), 1px -1px 0 rgb(62, 230, 221), -1px 1px 0 rgb(62, 230, 221),-1px -1px 0 rgb(62, 230, 221);
+}

@@ -1,0 +1,32 @@
+body {
+    width: 65vw;
+}
+
+div {
+    display: inline-block;
+    margin: 5px;
+}
+
+
+#ln1 {
+    width: 15vw;
+    height: 15vw;
+    background: linear-gradient(to top, rgb(196, 207, 154), rgb(86, 181, 184));
+}
+
+#ln2 {
+    width: 25vw;
+    height: 15vw;
+    background: linear-gradient(to left, rgb(196, 207, 154), rgb(86, 181, 184));
+}
+#ln3 {
+    width: 28vw;
+    height: 15vw;
+    background: linear-gradient(to top, red 36%, #fff 36%, #fff 64%, red 64%) ;
+}
+
+#ln4 {
+    width: 28vw;
+    height: 15vw;
+    background: linear-gradient(90deg,#ff0000 5%, #fbff00 33%, #ffffff 80%, #ff0000 102%);
+}

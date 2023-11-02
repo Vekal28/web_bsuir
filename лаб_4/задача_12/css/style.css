@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div {
+    width: 25%;
+    background-color: blue;
+    color: white;
+}
